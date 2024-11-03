@@ -22,3 +22,14 @@ console.log(circumference(8)) // outputs 50.26544
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
+function characters(letters, string) {
+    let count = 0;
+    for (let i=0; i < string.length; i++) {
+        if (string[i] === letters) {
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(characters("c", "cucumber"));
