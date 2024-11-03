@@ -32,4 +32,4 @@ function characters(letters, string) {
     return count;
 }
 
-console.log(characters("c", "cucumber"));
+console.log(characters("c", "cucumber")); // outputs 2
